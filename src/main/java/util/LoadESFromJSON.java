@@ -1,0 +1,177 @@
+/** \file
+ * 
+ * Aug 31, 2018
+ *
+ * Copyright Ian Kaplan 2018
+ *
+ * @author Ian Kaplan, www.bearcave.com, iank@bearcave.com
+ */
+package util;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+
+import org.apache.commons.io.FileUtils;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import booksearch_es.json.JSONUtils;
+import booksearch_es.model.BookInfo;
+import booksearch_es.service.ElasticsearchService;
+
+/**
+ * <h4>
+ * LoadESFromJSON
+ * </h4>
+ * <p>
+ * This code will load an Elasticsearch index with data from a JSON file. You should create the index before
+ * running this code.
+ * </p>
+ * <p>
+ * This code is designed to be generic and should load any JSON data into any index. This code was written to
+ * load JSON data for the BookSearchES application. If you run this application, it will create an index and
+ * the associated type. This will be bookindex/bookinfo (for the index and type).
+ * </p>
+ * <p>
+ * When you run the BookSearchES application it will create an index/type based on the mapping in
+ * booksearch_es.json.Mapping.java. This is the index/type that you should use to load the JSON
+ * for the BookSearchES application.
+ * </p>
+ * <p>
+ * Sep 4, 2018
+ * </p>
+ * 
+ * @author Ian Kaplan, iank@bearcave.com
+ */
+public class LoadESFromJSON {
+    
+    protected void usage() {
+        System.out.println("usage: " + this.getClass().getName() + " [Elasticsearch index name] [type] [path to JSON file]");
+    }
+    
+    /**
+     * <p>
+     * Add a last name for the bookinfo data. This is a temporary hack. The code is left here because having
+     * Jackson code around for reference can be useful.
+     * </p>
+     <pre>
+           [ {
+           "title" : "Inversions",
+           "author" : "Iain M. Banks",
+           "author_last_name" : "Banks,Iain M.",
+           "genre" : "Science Fiction",
+           "publisher" : "Atria",
+           "year" : "2000",
+           "price" : "14.13"
+         }, {
+           "title" : "Transition",
+           "author" : "Iain M. Banks",
+           "author_last_name" : "Banks,Iain M.",
+           "genre" : "Science Fiction",
+           "publisher" : "Orbit",
+           "year" : "2009",
+           "price" : "25.99"
+         },
+         ...
+         ]
+     </pre>
+     * @param jsonString
+     * @return
+     */
+    private String addAuthorLastName(String jsonString) {
+        String annotatedJSON = "";
+        try {
+            JsonNode jsonArray = JSONUtils.stringToJsonNode( jsonString );
+            if (jsonArray.isArray()) {
+                ObjectMapper mapper = new ObjectMapper();
+                ArrayList<BookInfo> bookInfoArray = new ArrayList<BookInfo>();
+                for (JsonNode jsonObjElem : jsonArray) {
+                    BookInfo info = mapper.treeToValue(jsonObjElem, BookInfo.class);
+                    if (info != null) {
+                        info.setAuthor_last_name();
+                        bookInfoArray.add(info);
+                    }
+                }
+                if (bookInfoArray.size() > 0) {
+                    BookInfo[] bookInfoVec = bookInfoArray.toArray( new BookInfo[1] );
+                    annotatedJSON = mapper.writeValueAsString(bookInfoVec);
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("Error processing JSON: " + e.getLocalizedMessage());
+        }
+        return annotatedJSON;
+    }
+    
+    /**
+     * 
+     * @param args args[0] index, args[1] type, args[2] path to JSON file
+     */
+    public void application(String[] args) {
+        if (args.length == 3) {
+            String indexName = args[0];
+            String typeName = args[1];
+            String jsonPath = args[2];
+            File jsonFile = new File(jsonPath);
+            if (jsonFile.canRead()) {
+                try {
+                    // Read the JSON file into a String. Obviously this will file for huge files (e.g., gigabyte sized files).
+                    String jsonString = FileUtils.readFileToString(jsonFile, Charset.forName("UTF-8"));
+                    try {
+                        ElasticsearchService esService = new ElasticsearchService();
+                        esService.loadElasticsearch(indexName, typeName, jsonString );
+                    } catch (IOException e) {
+                        System.err.println("Error loading JSON data into Elasticsearch: " + e.getLocalizedMessage());
+                    }
+                } catch (IOException e) {
+                    System.err.println("Error reading JSON file: " + e.getLocalizedMessage());
+                }
+            } else {
+                System.err.println("Cannot read " + jsonPath );
+            }
+        } else {
+            usage();
+        }
+    }
+
+   
+
+    /**
+     * <p>
+     * Load an Elasticsearch index/type with data from a JSON file (which may have been generated by the DumpESJSON.java application).
+     * </p>
+     * <p>
+     * The JSON file being loaded should in JSON array format, where each element of the array is a JSON "record".
+     * When the Elasticsearch index is loaded the assumption is that the field names in the Elasticsearch mapping
+     * are the same as the field names in the JSON array (e.g., "title", "author", etc...)
+     * </p>
+     * <pre>
+      [ {
+           "title" : "Inversions",
+           "author" : "Iain M. Banks",
+           "genre" : "Science Fiction",
+           "publisher" : "Atria",
+           "year" : "2000",
+           "price" : "14.13"
+         }, {
+           "title" : "Transition",
+           "author" : "Iain M. Banks",
+           "genre" : "Science Fiction",
+           "publisher" : "Orbit",
+           "year" : "2009",
+           "price" : "25.99"
+         },
+         ...
+         ]
+     * </pre>
+     * @param args args[0] index name, args[1] type name, args[2] path to JSON file
+     */
+    public static void main(String[] args) {
+        LoadESFromJSON app = new LoadESFromJSON();
+        app.application(args);
+    }
+
+}
