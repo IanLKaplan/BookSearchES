@@ -1,0 +1,985 @@
+[ {
+  "title" : "The Alchemist",
+  "author" : "Paolo Bacigalupi",
+  "author_last_name" : "Bacigalupi,Paolo",
+  "genre" : "Science Fiction",
+  "publisher" : "Subterranean Press",
+  "year" : "2011",
+  "price" : "20.00"
+}, {
+  "title" : "Mona Lisa Overdrive",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Bantam",
+  "year" : "1988",
+  "price" : "15.95"
+}, {
+  "title" : "The Passage",
+  "author" : "Justin Cronin",
+  "author_last_name" : "Cronin,Justin",
+  "genre" : "Fiction",
+  "publisher" : "Ballantine Books",
+  "year" : "2010",
+  "price" : "27.00"
+}, {
+  "title" : "Against a Dark Background",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Bantam",
+  "year" : "1993",
+  "price" : "5.99"
+}, {
+  "title" : "Prisoner's Delemma",
+  "author" : "Richard Powers",
+  "author_last_name" : "Powers,Richard",
+  "genre" : "Fiction",
+  "publisher" : "William Morrow",
+  "year" : "1988",
+  "price" : "19.95"
+}, {
+  "title" : "Over the Edge of the World",
+  "author" : "Laurence Bergreen",
+  "author_last_name" : "Bergreen,Laurence",
+  "genre" : "History",
+  "publisher" : "William Morrow",
+  "year" : "2003",
+  "price" : "27.95"
+}, {
+  "title" : "The Man Who Loved China",
+  "author" : "Simon Winchester",
+  "author_last_name" : "Winchester,Simon",
+  "genre" : "Nonfiction",
+  "publisher" : "Harper",
+  "year" : "2008",
+  "price" : "27.95"
+}, {
+  "title" : "Zika Blue and Other Stories",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Night Shade Books",
+  "year" : "2006",
+  "price" : "26.95"
+}, {
+  "title" : "Diamond Dogs, Turquoise Days",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Gollancz",
+  "year" : "2002",
+  "price" : "24.00"
+}, {
+  "title" : "Slow Bullets",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Tachyon",
+  "year" : "2015",
+  "price" : "14.95"
+}, {
+  "title" : "Matter",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "2008",
+  "price" : "46.00"
+}, {
+  "title" : "The Algebraist",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "2005",
+  "price" : "15.38"
+}, {
+  "title" : "Spook County",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Putnam",
+  "year" : "2007",
+  "price" : "25.95"
+}, {
+  "title" : "Persian Fire",
+  "author" : "Tom Holland",
+  "author_last_name" : "Holland,Tom",
+  "genre" : "Fiction",
+  "publisher" : "Doubleday",
+  "year" : "2005",
+  "price" : "27.50"
+}, {
+  "title" : "Lost Mountain",
+  "author" : "Erik Reece",
+  "author_last_name" : "Reece,Erik",
+  "genre" : "Nonfiction",
+  "publisher" : "Riverhead Books",
+  "year" : "2006",
+  "price" : "24.95"
+}, {
+  "title" : "Poseidon's Wake",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Gollancz",
+  "year" : "2015",
+  "price" : "36.00"
+}, {
+  "title" : "Revelation Space",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "2001",
+  "price" : "19.00"
+}, {
+  "title" : "Green Eyes",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "1984",
+  "price" : "2.95"
+}, {
+  "title" : "Vacancy & Ariel",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Science Fiction",
+  "publisher" : "Subterranean Press",
+  "year" : "2009",
+  "price" : "35.00"
+}, {
+  "title" : "Count Zero",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Arbor House",
+  "year" : "1986",
+  "price" : "15.95"
+}, {
+  "title" : "Bangkok Tattoo",
+  "author" : "John Burdett",
+  "author_last_name" : "Burdett,John",
+  "genre" : "Fiction",
+  "publisher" : "Knoff",
+  "year" : "2005",
+  "price" : "24.00"
+}, {
+  "title" : "Galactic North",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "2006",
+  "price" : "24.95"
+}, {
+  "title" : "The Collector of Worlds",
+  "author" : "Iliya Troyanon",
+  "author_last_name" : "Troyanon,Iliya",
+  "genre" : "Fiction",
+  "publisher" : "Ecco",
+  "year" : "2006",
+  "price" : "24.99"
+}, {
+  "title" : "Automated Alice",
+  "author" : "Jeff Noon",
+  "author_last_name" : "Noon,Jeff",
+  "genre" : "Fiction",
+  "publisher" : "Crown Publishers",
+  "year" : "1998",
+  "price" : "21.00"
+}, {
+  "title" : "11/23/63",
+  "author" : "Stephen King",
+  "author_last_name" : "King,Stephen",
+  "genre" : "Fiction",
+  "publisher" : "Gallery Books",
+  "year" : "2012",
+  "price" : "19.99"
+}, {
+  "title" : "Summer of Night",
+  "author" : "Dan Simmons",
+  "author_last_name" : "Simmons,Dan",
+  "genre" : "Fiction",
+  "publisher" : "Putnam",
+  "year" : "1991",
+  "price" : "22.95"
+}, {
+  "title" : "Transition",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "2009",
+  "price" : "25.99"
+}, {
+  "title" : "A Personal History of Thirst",
+  "author" : "John Burdett",
+  "author_last_name" : "Burdett,John",
+  "genre" : "Fiction",
+  "publisher" : "William Morrow",
+  "year" : "1996",
+  "price" : "23.00"
+}, {
+  "title" : "When Baghdad Ruled the World",
+  "author" : "Hugh Kennedy",
+  "author_last_name" : "Kennedy,Hugh",
+  "genre" : "History",
+  "publisher" : "De Capo",
+  "year" : "2004",
+  "price" : "26.00"
+}, {
+  "title" : "Century Rain",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "2004",
+  "price" : "24.95"
+}, {
+  "title" : "Trujillo",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Science Fiction",
+  "publisher" : "Night Shade Books",
+  "year" : "2004",
+  "price" : "24.95"
+}, {
+  "title" : "The Phoenix Program",
+  "author" : "Douglas Valentine",
+  "author_last_name" : "Valentine,Douglas",
+  "genre" : "Current Events",
+  "publisher" : "Avon Books",
+  "year" : "1990",
+  "price" : "12.50"
+}, {
+  "title" : "Comrade J",
+  "author" : "Pete Earley",
+  "author_last_name" : "Earley,Pete",
+  "genre" : "Nonfiction",
+  "publisher" : "Putnam",
+  "year" : "2007",
+  "price" : "25.95"
+}, {
+  "title" : "Louisiana Breakdown",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Science Fiction",
+  "publisher" : "Golden Gryphon",
+  "year" : "2003",
+  "price" : "21.95"
+}, {
+  "title" : "All Tomorrow's Parties",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Putnam",
+  "year" : "1990",
+  "price" : "24.95"
+}, {
+  "title" : "Bangkok 8",
+  "author" : "John Burdett",
+  "author_last_name" : "Burdett,John",
+  "genre" : "Fiction",
+  "publisher" : "Knoff",
+  "year" : "2003",
+  "price" : "24.00"
+}, {
+  "title" : "A Handbook of American Prayer",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Fiction",
+  "publisher" : "Thunder's Mouth Press",
+  "year" : "2004",
+  "price" : "2.97"
+}, {
+  "title" : "Look to Windward",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Pocket Books",
+  "year" : "2000",
+  "price" : "23.95"
+}, {
+  "title" : "Virtual Light",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Bantam",
+  "year" : "1993",
+  "price" : "21.95"
+}, {
+  "title" : "Slave of My Thirst",
+  "author" : "Tom Holland",
+  "author_last_name" : "Holland,Tom",
+  "genre" : "Fiction",
+  "publisher" : "Pocket Books",
+  "year" : "1996",
+  "price" : "23.00"
+}, {
+  "title" : "Venice The Tourist Maze",
+  "author" : "Robert C Davis",
+  "author_last_name" : "Davis,Robert C",
+  "genre" : "Nonfiction",
+  "publisher" : "University of California Press",
+  "year" : "2004",
+  "price" : "15"
+}, {
+  "title" : "On the Steel Breeze",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Gollancz",
+  "year" : "2013",
+  "price" : "32.00"
+}, {
+  "title" : "Children of Dune",
+  "author" : "Frank Herbert",
+  "author_last_name" : "Herbert,Frank",
+  "genre" : "Science Fiction",
+  "publisher" : "Berkeley Publishing",
+  "year" : "1976",
+  "price" : "10.00"
+}, {
+  "title" : "The Girl Who Played With Fire",
+  "author" : "Stieg Larsson",
+  "author_last_name" : "Larsson,Stieg",
+  "genre" : "Fiction",
+  "publisher" : "Alfred A Knopf",
+  "year" : "2009",
+  "price" : "25.95"
+}, {
+  "title" : "Project Orion",
+  "author" : "George Dyson",
+  "author_last_name" : "Dyson,George",
+  "genre" : "Nonfiction",
+  "publisher" : "Henry Holt",
+  "year" : "2002",
+  "price" : "26.00"
+}, {
+  "title" : "Endymion",
+  "author" : "Dan Simmons",
+  "author_last_name" : "Simmons,Dan",
+  "genre" : "Science Fiction",
+  "publisher" : "Putnam",
+  "year" : "1996",
+  "price" : "22.95"
+}, {
+  "title" : "Inversions",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Atria",
+  "year" : "2000",
+  "price" : "14.13"
+}, {
+  "title" : "Pump Six and Other Stories",
+  "author" : "Paolo Bacigalupi",
+  "author_last_name" : "Bacigalupi,Paolo",
+  "genre" : "Science Fiction",
+  "publisher" : "Night Shade Books",
+  "year" : "2008",
+  "price" : "24.95"
+}, {
+  "title" : "Golden",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Fiction",
+  "publisher" : "Mark V Ziesing",
+  "year" : "1993",
+  "price" : "29.95"
+}, {
+  "title" : "The Girl With The Dragon Tattoo",
+  "author" : "Stieg Larsson",
+  "author_last_name" : "Larsson,Stieg",
+  "genre" : "Fiction",
+  "publisher" : "Alfred A Knopf",
+  "year" : "2008",
+  "price" : "24.95"
+}, {
+  "title" : "Brothers",
+  "author" : "David Talbot",
+  "author_last_name" : "Talbot,David",
+  "genre" : "History",
+  "publisher" : "Free Press",
+  "year" : "2007",
+  "price" : "28.00"
+}, {
+  "title" : "Bad Lands",
+  "author" : "Tony Wheeler",
+  "author_last_name" : "Wheeler,Tony",
+  "genre" : "Travel",
+  "publisher" : "Lonely Planet",
+  "year" : "2007",
+  "price" : "14.99"
+}, {
+  "title" : "The Complete Idiots Guide to Learning Italian",
+  "author" : "Gabrielle Ann Euvinp",
+  "author_last_name" : "Euvinp,Gabrielle Ann",
+  "genre" : "Nonfiction",
+  "publisher" : "Alpha",
+  "year" : "2004",
+  "price" : "18.95"
+}, {
+  "title" : "Revelation Space",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "2000",
+  "price" : "23.95"
+}, {
+  "title" : "Pushing Ice",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Gollancz",
+  "year" : "2005",
+  "price" : "30.00"
+}, {
+  "title" : "Jennifer Government",
+  "author" : "Max Berry",
+  "author_last_name" : "Berry,Max",
+  "genre" : "Science Fiction",
+  "publisher" : "Doubleday",
+  "year" : "2003",
+  "price" : "19.95"
+}, {
+  "title" : "Idoru",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Putnam",
+  "year" : "1996",
+  "price" : "24.95"
+}, {
+  "title" : "Valentine",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Fiction",
+  "publisher" : "Four Walls Eight Windows",
+  "year" : "2002",
+  "price" : "18.00"
+}, {
+  "title" : "The Girl Who Kicked The Hornets Nest",
+  "author" : "Stieg Larsson",
+  "author_last_name" : "Larsson,Stieg",
+  "genre" : "Fiction",
+  "publisher" : "Alfred A Knopf",
+  "year" : "2009",
+  "price" : "27.95"
+}, {
+  "title" : "Fortress Malta",
+  "author" : "James Holland",
+  "author_last_name" : "Holland,James",
+  "genre" : "History",
+  "publisher" : "Miramax Books",
+  "year" : "2003",
+  "price" : "27.95"
+}, {
+  "title" : "Guns, Germs, and Steel",
+  "author" : "Jared Diamond",
+  "author_last_name" : "Diamond,Jared",
+  "genre" : "History",
+  "publisher" : "Norton",
+  "year" : "1998",
+  "price" : "14.95"
+}, {
+  "title" : "The Companion Guide to Venice",
+  "author" : "Hugh Honour",
+  "author_last_name" : "Honour,Hugh",
+  "genre" : "Travel",
+  "publisher" : "Companion Guide",
+  "year" : "2001",
+  "price" : "16.00"
+}, {
+  "title" : "Revenger",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Gollancz",
+  "year" : "2016",
+  "price" : "38.00"
+}, {
+  "title" : "Use of Weapons",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "1990",
+  "price" : "13.98"
+}, {
+  "title" : "The Ends of the Earth",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Science Fiction",
+  "publisher" : "Arkham House",
+  "year" : "1991",
+  "price" : "24.95"
+}, {
+  "title" : "Intimate Enemies",
+  "author" : "Christina Vella",
+  "author_last_name" : "Vella,Christina",
+  "genre" : "History",
+  "publisher" : "",
+  "year" : "1997",
+  "price" : ""
+}, {
+  "title" : "The Architectural History of Venice",
+  "author" : "Deborah Howard",
+  "author_last_name" : "Howard,Deborah",
+  "genre" : "History",
+  "publisher" : "Yale University Press",
+  "year" : "2002",
+  "price" : "19.00"
+}, {
+  "title" : "JSP Java Server Pages",
+  "author" : "James Goodwill",
+  "author_last_name" : "Goodwill,James",
+  "genre" : "Computer Science",
+  "publisher" : "SAMS",
+  "year" : "2000",
+  "price" : "34.99"
+}, {
+  "title" : "Absolution Gap",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "2003",
+  "price" : "24.95"
+}, {
+  "title" : "Excession",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Bantam",
+  "year" : "1996",
+  "price" : "12.50"
+}, {
+  "title" : "Hydrogen Sonata",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "2012",
+  "price" : "16.98"
+}, {
+  "title" : "The Peripheral",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Putnam",
+  "year" : "2014",
+  "price" : "28.95"
+}, {
+  "title" : "Life During Wartime",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Science Fiction",
+  "publisher" : "Grafton",
+  "year" : "1987",
+  "price" : "10.95"
+}, {
+  "title" : "Neuromancer",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Phantasia Press",
+  "year" : "1986",
+  "price" : "750.00"
+}, {
+  "title" : "In The Company of the Courtesan",
+  "author" : "Sarah Dunant",
+  "author_last_name" : "Dunant,Sarah",
+  "genre" : "Fiction",
+  "publisher" : "Random House",
+  "year" : "2006",
+  "price" : "29.95"
+}, {
+  "title" : "How Rome Fell",
+  "author" : "Adrian Goldsworthy",
+  "author_last_name" : "Goldsworthy,Adrian",
+  "genre" : "History",
+  "publisher" : "Yale University Press",
+  "year" : "2009",
+  "price" : "32.50"
+}, {
+  "title" : "War of Numbers",
+  "author" : "Sam Adams",
+  "author_last_name" : "Adams,Sam",
+  "genre" : "History",
+  "publisher" : "Steer Forth Press",
+  "year" : "1994",
+  "price" : "22"
+}, {
+  "title" : "The Six Directions of Space",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Subterranean Press",
+  "year" : "2008",
+  "price" : "35.00"
+}, {
+  "title" : "Imperium",
+  "author" : "Robert Harris",
+  "author_last_name" : "Harris,Robert",
+  "genre" : "Fiction",
+  "publisher" : "Simon Schuster",
+  "year" : "2006",
+  "price" : "26.00"
+}, {
+  "title" : "The Reformation",
+  "author" : "Diarmaid MacCulloch",
+  "author_last_name" : "MacCulloch,Diarmaid",
+  "genre" : "History",
+  "publisher" : "Viking",
+  "year" : "2003",
+  "price" : "34.95"
+}, {
+  "title" : "A Venetian Affair",
+  "author" : "Andera Di Robilant",
+  "author_last_name" : "Robilant,Andera Di",
+  "genre" : "Nonfiction",
+  "publisher" : "Knoff",
+  "year" : "2003",
+  "price" : "24"
+}, {
+  "title" : "Daemon",
+  "author" : "Leinad Zeraus",
+  "author_last_name" : "Zeraus,Leinad",
+  "genre" : "Science Fiction",
+  "publisher" : "Verdugo Press",
+  "year" : "2006",
+  "price" : "15.95"
+}, {
+  "title" : "Kalimantan",
+  "author" : "Lucius Sheppard",
+  "author_last_name" : "Sheppard,Lucius",
+  "genre" : "Science Fiction",
+  "publisher" : "St Martin Press",
+  "year" : "1990",
+  "price" : "16.95"
+}, {
+  "title" : "The Farther Shore",
+  "author" : "Matthew Eck",
+  "author_last_name" : "Eck,Matthew",
+  "genre" : "Fiction",
+  "publisher" : "Milkweed Editions",
+  "year" : "2007",
+  "price" : "22.00"
+}, {
+  "title" : "House of Suns",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Gollancz",
+  "year" : "2008",
+  "price" : "38.00"
+}, {
+  "title" : "Troika",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Subterranean Press",
+  "year" : "2011",
+  "price" : "35.00"
+}, {
+  "title" : "Consider Phlebas",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "1987",
+  "price" : "10.95"
+}, {
+  "title" : "Surface Detail",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "2010",
+  "price" : "19.00"
+}, {
+  "title" : "The Executioness",
+  "author" : "Tobias S Buckell",
+  "author_last_name" : "Buckell,Tobias S",
+  "genre" : "Science Fiction",
+  "publisher" : "Subterranean Press",
+  "year" : "2011",
+  "price" : "20.00"
+}, {
+  "title" : "The Bug",
+  "author" : "Ellen Ullman",
+  "author_last_name" : "Ullman,Ellen",
+  "genre" : "Fiction",
+  "publisher" : "Doubleday",
+  "year" : "2003",
+  "price" : "23.95"
+}, {
+  "title" : "Bangkok Haunts",
+  "author" : "John Burdett",
+  "author_last_name" : "Burdett,John",
+  "genre" : "Fiction",
+  "publisher" : "Knoff",
+  "year" : "2007",
+  "price" : "24.95"
+}, {
+  "title" : "Blondie24",
+  "author" : "David B Fogel",
+  "author_last_name" : "Fogel,David B",
+  "genre" : "Computer Science",
+  "publisher" : "Morgan Kaufmann",
+  "year" : "2002",
+  "price" : "24.95"
+}, {
+  "title" : "Augustus",
+  "author" : "Anthony Everitt",
+  "author_last_name" : "Everitt,Anthony",
+  "genre" : "History",
+  "publisher" : "Random House",
+  "year" : "2006",
+  "price" : "26.95"
+}, {
+  "title" : "Chasm City",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "2001",
+  "price" : "23.95"
+}, {
+  "title" : "Feersum Endjinn",
+  "author" : "Iain M. Banks",
+  "author_last_name" : "Banks,Iain M.",
+  "genre" : "Science Fiction",
+  "publisher" : "Bantam",
+  "year" : "1994",
+  "price" : "5.99"
+}, {
+  "title" : "Burning Chrome",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Arbor House",
+  "year" : "1996",
+  "price" : "15.95"
+}, {
+  "title" : "Zero History",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Putnam",
+  "year" : "2010",
+  "price" : "20.00"
+}, {
+  "title" : "Shadow Country",
+  "author" : "Peter Matthiessen",
+  "author_last_name" : "Matthiessen,Peter",
+  "genre" : "Fiction",
+  "publisher" : "Modern Library",
+  "year" : "2008",
+  "price" : "40.00"
+}, {
+  "title" : "Bonhoeffer",
+  "author" : "Eric Metaxas",
+  "author_last_name" : "Metaxas,Eric",
+  "genre" : "History",
+  "publisher" : "Thomas Nelson",
+  "year" : "2010",
+  "price" : "19.99"
+}, {
+  "title" : "Algorithms on Strings, Trees and Sequences",
+  "author" : "Dan Gusfield",
+  "author_last_name" : "Gusfield,Dan",
+  "genre" : "Computer Science",
+  "publisher" : "Cambridge University Press",
+  "year" : "1997",
+  "price" : "35.00"
+}, {
+  "title" : "Predator Nation",
+  "author" : "Charles H Ferguson",
+  "author_last_name" : "Ferguson,Charles H",
+  "genre" : "Current Events",
+  "publisher" : "Crown Business",
+  "year" : "2012",
+  "price" : "27.00"
+}, {
+  "title" : "Body of Secrets",
+  "author" : "James Bamford",
+  "author_last_name" : "Bamford,James",
+  "genre" : "Current Events",
+  "publisher" : "Doubleday",
+  "year" : "2001",
+  "price" : "29.95"
+}, {
+  "title" : "Terminal World",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "2010",
+  "price" : "26.95"
+}, {
+  "title" : "The Prefect",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Gollancz",
+  "year" : "2007",
+  "price" : "36"
+}, {
+  "title" : "The Rise of Endymion",
+  "author" : "Dan Simmons",
+  "author_last_name" : "Simmons,Dan",
+  "genre" : "Science Fiction",
+  "publisher" : "Putnam",
+  "year" : "1997",
+  "price" : "23.95"
+}, {
+  "title" : "The Man Who Loved Dirty Books",
+  "author" : "David Guy",
+  "author_last_name" : "Guy,David",
+  "genre" : "Fiction",
+  "publisher" : "New American Library",
+  "year" : "1983",
+  "price" : "15.50"
+}, {
+  "title" : "Rome From The Ground Up",
+  "author" : "James H.S. McGregor",
+  "author_last_name" : "McGregor,James H.S.",
+  "genre" : "Travel",
+  "publisher" : "Belknap Harvard",
+  "year" : "2005",
+  "price" : "29.95"
+}, {
+  "title" : "Reef Fish Identification",
+  "author" : "Paul Humann",
+  "author_last_name" : "Humann,Paul",
+  "genre" : "Nonfiction",
+  "publisher" : "New World",
+  "year" : "1995",
+  "price" : "20"
+}, {
+  "title" : "Elysium Fire",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Orbit",
+  "year" : "2018",
+  "price" : "9.99"
+}, {
+  "title" : "Ship Breaker",
+  "author" : "Paolo Bacigalupi",
+  "author_last_name" : "Bacigalupi,Paolo",
+  "genre" : "Science Fiction",
+  "publisher" : "Little Brown",
+  "year" : "2010",
+  "price" : "17.99"
+}, {
+  "title" : "Dictator",
+  "author" : "Robert Harris",
+  "author_last_name" : "Harris,Robert",
+  "genre" : "Fiction",
+  "publisher" : "Alfred A Knopf",
+  "year" : "2015",
+  "price" : "29.95"
+}, {
+  "title" : "Claudius",
+  "author" : "Barbara Levick",
+  "author_last_name" : "Levick,Barbara",
+  "genre" : "History",
+  "publisher" : "Yale University Press",
+  "year" : "1990",
+  "price" : "11.95"
+}, {
+  "title" : "Legacy of Ashes",
+  "author" : "Tim Weiner",
+  "author_last_name" : "Weiner,Tim",
+  "genre" : "History",
+  "publisher" : "Doubleday",
+  "year" : "2007",
+  "price" : "27.95"
+}, {
+  "title" : "Heights of Madness",
+  "author" : "Myra MacDonald",
+  "author_last_name" : "MacDonald,Myra",
+  "genre" : "Current Events",
+  "publisher" : "Rupa",
+  "year" : "2007",
+  "price" : "12.50"
+}, {
+  "title" : "Blue Rembered Earth",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "2012",
+  "price" : "26.95"
+}, {
+  "title" : "The Shadow Factory",
+  "author" : "James Bamford",
+  "author_last_name" : "Bamford,James",
+  "genre" : "Current Events",
+  "publisher" : "Doubleday",
+  "year" : "2008",
+  "price" : "27.95"
+}, {
+  "title" : "Freedom",
+  "author" : "Daniel Suarez",
+  "author_last_name" : "Suarez,Daniel",
+  "genre" : "Science Fiction",
+  "publisher" : "Dutton",
+  "year" : "2010",
+  "price" : "26.95"
+}, {
+  "title" : "Pattern Recognition",
+  "author" : "William Gibson",
+  "author_last_name" : "Gibson,William",
+  "genre" : "Science Fiction",
+  "publisher" : "Putnam",
+  "year" : "2003",
+  "price" : "25.95"
+}, {
+  "title" : "Lord of the Dead",
+  "author" : "Tom Holland",
+  "author_last_name" : "Holland,Tom",
+  "genre" : "Fiction",
+  "publisher" : "Pocket Books",
+  "year" : "1996",
+  "price" : "15.95"
+}, {
+  "title" : "Russia Against Nepoleon",
+  "author" : "Dominic Lieven",
+  "author_last_name" : "Lieven,Dominic",
+  "genre" : "History",
+  "publisher" : "Viking",
+  "year" : "2009",
+  "price" : "25.95"
+}, {
+  "title" : "Collapse",
+  "author" : "Jared Diamond",
+  "author_last_name" : "Diamond,Jared",
+  "genre" : "Nonfiction",
+  "publisher" : "Viking",
+  "year" : "2005",
+  "price" : "29.95"
+}, {
+  "title" : "Dreaming in Code",
+  "author" : "Scott Rosenberg",
+  "author_last_name" : "Rosenberg,Scott",
+  "genre" : "Nonfiction",
+  "publisher" : "Crown Publishers",
+  "year" : "2007",
+  "price" : "25.95"
+}, {
+  "title" : "Redemption Arc",
+  "author" : "Alastair Reynolds",
+  "author_last_name" : "Reynolds,Alastair",
+  "genre" : "Science Fiction",
+  "publisher" : "Ace",
+  "year" : "2003",
+  "price" : "24.95"
+} ]
