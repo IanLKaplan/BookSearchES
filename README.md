@@ -352,5 +352,5 @@ A Java demonstration application that uses the Amazon Elasticsearch Service, Spr
             </p>
             <p>
             The books.json file contains sample data that can be loaded into the application. The JSON file can be loaded
-            with the LoadESFromJSON application.
+            with the LoadESFromJSON utility program.
             </p>
