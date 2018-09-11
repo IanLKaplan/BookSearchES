@@ -328,3 +328,23 @@ A Java demonstration application that uses the Amazon Elasticsearch Service, Spr
                developers. The HTTP and Elasticsearch code is independent of the Book Search demonstration application
                and you may freely use it in your own code.
            </p>
+<h3>
+            Spring Boot and Spring MVC
+            </h3>
+            <p>
+            The Book Search application is built using the Spring framework. You should be able to clone the code
+            and import it as a Spring Tool Suite project (Spring Tool Suite is a version of Eclipse customized for
+            Spring. The project uses Maven to load the necessary Java libraries.
+            </p>
+            <h3>
+            The Book Search Application
+            </h3>
+            <p>
+            The Book Search application can be run on your local system. Before you do this, however, you will need
+            to configure an AWS Elasticsearch Service domain. You will need to get the ID and secret key for accessing
+            your domain. The ID and secret key can then be added to the IElassticsearch.java Interface.
+            </p>
+            <p>
+            The books.json file contains sample data that can be loaded into the application. The JSON file can be loaded
+            with the LoadESFromJSON application.
+            </p>
