@@ -1,6 +1,7 @@
 # BookSearchES
-A Java demonstration application that uses the Amazon Elasticsearch Service, Spring Boot and Spring MVC
-
+<p>
+A Java demonstration application that uses the Amazon Elasticsearch Service, Spring Boot and Spring MVC. This application was developed by Topstone Software Consulting (www.topstonesoftware.com)
+</p>
 <h3>Introduction</h3>
             <p>
                 This article discusses how the open source Elasticsearch database and the Amazon Web Services (AWS)
