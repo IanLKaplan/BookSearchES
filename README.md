@@ -323,3 +323,8 @@ A Java demonstration application that uses the Amazon Elasticsearch Service, Spr
   }
 }<span style="color: #FF0000; background-color: #FFAAAA">&#39;</span>
 </pre></div>
+<p>
+               I hope that this article and the associated code on GitHub will provide a useful resource for Java
+               developers. The HTTP and Elasticsearch code is independent of the Book Search demonstration application
+               and you may freely use it in your own code.
+           </p>
