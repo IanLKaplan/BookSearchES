@@ -162,13 +162,6 @@ A Java demonstration application that uses the Amazon Elasticsearch Service, Spr
                 Elastic search queries against the data in your Elasticsearch Service instance. This feature was
                 very useful when developing the queries used by the Book Search application.
                 </p>
-            <p>
-                The example below shows a search query in the console pane on the left and the query result (in JSON format) in the
-                right panel.
-            </p>
-            <div>
-                <img src="../img/elasticsearch_kibana_example.png">
-            </div>
             <h3>
                 Elasticsearch is a REST Service
             </h3>
