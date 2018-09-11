@@ -342,7 +342,12 @@ A Java demonstration application that uses the Amazon Elasticsearch Service, Spr
             <p>
             The Book Search application can be run on your local system. Before you do this, however, you will need
             to configure an AWS Elasticsearch Service domain. You will need to get the ID and secret key for accessing
-            your domain. The ID and secret key can then be added to the IElassticsearch.java Interface.
+            your domain. The ID and secret key can then be added to the IElassticsearch.java Interface. You will also
+            need to add your Elasticsearch end-point URL to the Interface code.
+            </p>
+            <p>
+            When you run the Book Search application it will create an index and load a mapping into your Elasticsearch
+            domain.
             </p>
             <p>
             The books.json file contains sample data that can be loaded into the application. The JSON file can be loaded
