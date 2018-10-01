@@ -374,3 +374,18 @@ A Java demonstration application that uses the Amazon Elasticsearch Service, Spr
             The books.json file contains sample data that can be loaded into the application. The JSON file can be loaded
             with the LoadESFromJSON utility program.
             </p>
+            <h3>
+Amazon Cloud Architecture, Spring and Elasticsearch Consulting
+            </h3>
+            <p>
+            <a href="http://topstonesoftware.com">Topstone Software</a> has extensive experience building scalable web applications on Amazon Web Services. We can help you design your AWS application architecture to provide scalability and optimized cost.
+</p>
+<p>
+We designed and built the nderground social network. nderground is a social network designed for privacy and security. nderground has been live with close to 100% uptime for over three years.
+</p>
+<p>
+At Topstone Software we have experience building Spring framework applications that utilize a variety of AWS services. These include Elasticsearch, DynamoDB, S3, the Simple Email System and Elastic Beanstalk. We can provide the consulting help to speed your application development or we can develop applications to your specification.
+</p>
+    <h4>
+            Ian Kaplan, <a href="http://topstonesoftware.com">Topstone Software Consulting</a>, October 2018
+            </h4>
