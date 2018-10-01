@@ -23,6 +23,26 @@ A Java demonstration application that uses the Amazon Elasticsearch Service, Spr
                 <a href="https://github.com/IanLKaplan/booksearch">https://github.com/IanLKaplan/booksearch</a>)
             </p>
             <h3>
+            Software Highlights
+            </h3>
+            <p>
+            This application uses the AWS Elasticsearch Service for storing and searching the Book Info data. In this 
+            application, the AWS Elasticsearch Service is accessed via signed HTTP. The HTTP code and the Elasticsearch
+            code is written to be independent of the Book Search application.
+            </p>
+            <p>
+            The documentation that exists to help a Java programmer develop code for Elasticsearch is scattered and
+            can be difficult to find. My hope is that the code provided in this application will ease the path for
+            other Java programmers developing Elasticsearch applications.
+            </p>
+            <p>
+            The signed HTTP code uses the AWSRequestSigningApacheInterceptor.java class, which has been released by Amazon
+            as open source.
+            </p>
+            <p>
+            The Elasticsearch code and the signed HTTP code are packaged as service objects. See HttpService.java and ElasticsearchService.java. An additional class, HttpGetWithEntity.java provides an extended version of the HTTP Rest operation by providing an entity in the GET transaction.
+            </p>
+            <h3>
                 Faceted Search
             </h3>
             <p>
